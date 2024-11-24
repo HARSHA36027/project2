@@ -1,0 +1,144 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(1, 1, 21);
+}
+.name{
+    color: white;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin-right: 850px;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.searchbox{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    bottom: 0px;
+}
+.sboxx{
+    margin-top: 5px;
+    color: white;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.sbox{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 200px;
+width: 100px;
+text-align: center;
+color: white;
+text-decoration: none;
+}
+.sbox11{
+    margin-top: 3px;
+}
+ .container{
+    width: 100%;
+    /* margin-top: 15px; */
+    /* border: 1px solid red; */
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ }
+ /* width: 1200px;
+ border: 1px solid red;
+ height: 300px;
+ align-items: center;
+ display: flex;
+ justify-content: space-around;
+} */
+ .con1{
+    margin-left: 70px;
+ }
+ .con:hover{
+    transform: scale(1.1);
+    box-shadow: -1px -1px 6px 3px white;
+ }
+ .con1:hover{
+    transform: scale(1.1);
+    box-shadow: -1px -1px 6px 3px white;
+ }
+@media only screen and (max-width:1200px){
+    body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(1, 1, 21);
+}
+.name{
+    color: white;
+    font-size: 15px;
+     /* margin-left: 60px; */
+     width: 400px;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.searchbox{
+    display: flex;
+    background-color: black;
+    justify-content:space-evenly;
+
+    height: 60px;
+    width: 1200px;
+    align-items: center;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    bottom: 0px;
+}
+.sboxx{
+    margin-top: 5px;
+    color: white;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.sbox{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 200px;
+width: 100px;
+text-align: center;
+color: white;
+text-decoration: none;
+}
+.sbox11{
+    margin-top: 3px;
+}
+ .container{
+     width: 1200px;
+ border: 1px solid red;
+ height: 300px;
+ align-items: center;
+ display: flex;
+ justify-content: space-around;
+} 
+ .con1{
+    /* margin-left: 70px; */
+ }
+ .con:hover{
+    transform: scale(1.1);
+    box-shadow: -1px -1px 6px 3px white;
+ }
+ .con1:hover{
+    transform: scale(1.1);
+    box-shadow: -1px -1px 6px 3px white;
+ }
+
+}
